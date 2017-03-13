@@ -22,6 +22,13 @@ If you require a Site title and a logo, an example of how to do this is provided
 */
 
 /*
+Site Header
+*/
+.navbar {
+  margin-bottom: 0;
+}
+
+/*
 Main content
 */
 
@@ -36,6 +43,10 @@ Main content
 }
 #content footer {
   padding-bottom: 20px
+}
+
+body#tinymce {
+  padding: 10px !important;
 }
 
 /*

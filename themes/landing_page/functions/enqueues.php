@@ -7,8 +7,10 @@ function bst_enqueues() {
 	wp_register_style('bootstrap-css', get_template_directory_uri() . '/css/bootstrap.min.css', false, '3.3.4', null);
 	wp_enqueue_style('bootstrap-css');
 
-  	wp_register_style('bst-css', get_template_directory_uri() . '/css/bst.css', false, null);
-	wp_enqueue_style('bst-css');
+  wp_register_style('main-styles', get_template_directory_uri() . '/css/main-styles.css', false, null);
+	wp_enqueue_style('main-styles');
+
+
 
 	/* Scripts */
 	
